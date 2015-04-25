@@ -1,0 +1,124 @@
+<!-- <div class="container">
+
+  <div class="starter-template">
+    <h1>Wait and Eat</h1>
+    <p class="lead">The smart restaurant waiting list.</p>
+	<a href="#/register" class="btn btn-primary btn-lg " role="button">Get Started Now</a> 
+ </div>
+  <div class="row">
+	  <div class="col-md-4">
+	  	<h2>Ditch the clipboard</h2>
+	  	<p>Use our simple app to manage your waiting list from your PC, tablet, or phone.</p>
+	  </div>
+	  <div class="col-md-4">
+	  	<h2>Get your Voice back</h2>
+	  	<p>No need to yell every 5 minutes. You can text a party with just a tap.</p>
+	  </div>
+	  <div class="col-md-4">
+	  	<h2>Customers will love you</h2>
+	  	<p>Now they can go to the bathroom and still know their table is ready.</p>
+	  </div>
+	</div>
+
+</div><!/.container --> 
+
+  <!-- Carousel
+    ================================================== -->
+  <div ng-controller="CarouselDemoCtrl">
+  <div style="height: 500px">
+    <carousel interval="myInterval">
+      <slide ng-repeat="slide in slides" active="slide.active">
+        <img ng-src="{{slide.image}}" style="margin:auto;">
+        <div class="carousel-caption">
+          <h1>{{slide.title}}</h1>
+          <h3>{{slide.text}}</h3>
+          <a href="#/register" class="btn btn-primary btn-lg " role="button">Get Started Now</a> 
+        </div>
+      </slide>
+    </carousel>
+  </div>
+   
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="http://www.lavu.com/wp-content/uploads/2015/02/full_banner_fiu_girl.jpg" class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <h2>Ditch the Table Trackers</h2>
+          <p>Restaurateurs have been plagued with a vast overload of hard paper documents for years - whether it's the resources used for scheduling, inventory, sales, correspondence or one of many more roles, many eateries are pressed for space and effective organization.</p>
+          <p><a class="btn btn-default" href="##bella1" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="http://www.tw-media.com/uploads/media/tawi4News2Foto2.JPG"class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <h2>Positive Marketing Angle</h2>
+          <p>Once these new, forward-thinking systems are put into place, a restaurant can use this to generate positive buzz marketing.</p>
+          <p><a class="btn btn-default" href="##bella2" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="http://farm5.static.flickr.com/4134/4753767524_1eb5657a8a_o.jpg"class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="bella1">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">Text and Eat has been the key to getting out of stress and hassle for many of these businesses and stands to improve the electronic workflow and space management of the restaurant industry as a whole. With an efficient system in place, it can be endlessly beneficial for an organization to make the switch, and remain ahead of the curve while doing so.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="http://www.lavu.com/wp-content/uploads/2015/02/lavu_customers-circles-product-ipad-composite-copy.jpg" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="bella2">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">From a marketing perspective, it can be helpful to target and draw attention to areas of the company that are eliminating paper to both maximize the positive impact a business is making on the environment and to dissuade potential customers from choosing competing eateries that don't market the advantages of their document management software.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img src="http://i.ytimg.com/vi/tflXwBkqmUA/maxresdefault.jpg" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="about">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Greg Wright <span class="text-muted">Front End Web Developer</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+         <div class="icon-wrapper">
+          <span><a href=""><i class="fa fa-briefcase fa-2x" title="Portfolio"></i></a></span>
+          <span><a href=""><i class="fa fa-github-alt fa-2x" title="Github"></i></a></span>
+          <span><a href=""><i class="fa fa-file-text-o fa-2x" title="Resume"></i></a></span>
+       	 </div>
+   	  </div>
+        <div class="col-md-5">
+          <img src="fam.jpg"class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
