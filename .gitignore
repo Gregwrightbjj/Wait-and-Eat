@@ -1,4 +1,9 @@
 node_modules
 dist
 .tmp
-bower_components
+Gruntfile.js
+.bowerrc
+.bower.json
+.DS_Store
+.jshintrc
+.yo-rc.json
